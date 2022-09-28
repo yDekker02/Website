@@ -36,8 +36,8 @@ button {
 
 /* button above frog */
 .frog {
-    background: #77B255; /* #709e55 hover */
-    border-radius: 20%;    /*#7abc54 active*/
+    background: #77B255;
+    border-radius: 20%;
 }
 .frog:hover {
     background: #709e55;

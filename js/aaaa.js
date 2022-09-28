@@ -1,20 +1,28 @@
 // the text change button
 function BA() {
-    if (document.getElementById('1').innerText != "BBBBBB") {
-        document.getElementById('1').innerText='BBBBBB' 
+    var one = document.getElementById('1')
+
+    if (one.innerText != "BBBBBB") {
+        one.innerText='BBBBBB' 
     }
     else {
-        document.getElementById('1').innerText="AAAAAA"
+        one.innerText="AAAAAA"
     }
 }
 
 // the frog button code is a mess but no other way to do it
 function AB() {
-    if (document.getElementById('2').innerText != "frogger happy") {
-        document.getElementById('2').innerText="frogger happy"
-        document.getElementById('3').src = "img/frog2.png"
-        document.getElementById("body").style.backgroundImage = "radial-gradient(#f00, #000)"
-        document.getElementById("5").innerText = "angry rotating frog"
+    var two = document.getElementById('2');
+    var three = document.getElementById('3');
+    var five = document.getElementById('5');
+    var body = document.getElementById("body").style;
+
+
+    if (two.innerText != "frogger happy") {
+        two.innerText = "frogger happy"
+        three.src = "img/frog2.png"
+        body.backgroundImage = "radial-gradient(#f00, #000)"
+        five.innerText = "angry rotating frog"
         css().bind(".frog", {
             "border-radius" : "20%",
             "background-color" : "#FF002A"
@@ -27,10 +35,10 @@ function AB() {
         })
     }
     else {
-        document.getElementById('2').innerText = "frogger angry"
-        document.getElementById('3').src = "img/frog.png"
-        document.getElementById("body").style.backgroundImage = "radial-gradient(#fff, #f6f)"
-        document.getElementById("5").innerText = "rotating frog"
+        two.innerText = "frogger angry"
+        three.src = "img/frog.png"
+        body.backgroundImage = "radial-gradient(#fff, #f6f)"
+        five.innerText = "rotating frog"
         css().bind(".frog", {
             "border-radius" : "20%",
             "background-color" : "#77B255"
