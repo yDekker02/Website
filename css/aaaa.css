@@ -65,7 +65,7 @@ img {
 
 /* text under the frog img */
 h6 {
-    animation: text 1600ms infinite ease-in-out;
+    animation: text 2400ms infinite ease-in-out;
 }
 @keyframes text {
     100%{
