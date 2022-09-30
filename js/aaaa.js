@@ -12,17 +12,17 @@ function BA() {
 
 // the frog button code is a mess but no other way to do it
 function AB() {
-    var two = document.getElementById('2');
-    var three = document.getElementById('3');
-    var five = document.getElementById('5');
+    var btext = document.getElementById('2');
+    var image = document.getElementById('3');
+    var utext = document.getElementById('5');
     var body = document.getElementById("body").style;
 
 
-    if (two.innerText != "frogger happy") {
-        two.innerText = "frogger happy"
-        three.src = "img/frog2.png"
+    if (btext.innerText != "frogger happy") {
+        btext.innerText = "frogger happy"
+        image.src = "img/frog2.png"
         body.backgroundImage = "radial-gradient(#f00, #000)"
-        five.innerText = "angry rotating frog"
+        utext.innerText = "angry rotating frog"
         css().bind(".frog", {
             "border-radius" : "20%",
             "background-color" : "#FF002A"
@@ -35,10 +35,10 @@ function AB() {
         })
     }
     else {
-        two.innerText = "frogger angry"
-        three.src = "img/frog.png"
+        btext.innerText = "frogger angry"
+        image.src = "img/frog.png"
         body.backgroundImage = "radial-gradient(#fff, #f6f)"
-        five.innerText = "rotating frog"
+        utext.innerText = "rotating frog"
         css().bind(".frog", {
             "border-radius" : "20%",
             "background-color" : "#77B255"
