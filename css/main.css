@@ -1,0 +1,10 @@
+:root {
+    --clr: #1b1b1b;
+    --white: #fff;
+}
+
+body {
+    display: flex;
+    background-color: var(--clr);
+    color: var(--white);
+}
