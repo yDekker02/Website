@@ -1,7 +1,7 @@
 <?php
 $pages = array();
 $pages["/portofolio"] = "Portofolio";
-$pages["/site"] = "Home";
+$pages["/httpdocs"] = "Home";
 $pages["/projecten"] = "Projecten";
 
 $icons = ["person-sharp", "home-sharp", "code-sharp"];
