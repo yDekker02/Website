@@ -1,5 +1,5 @@
 <?php
-$activePage = "/httpdocs";
+$activePage = "https://ydekker.nl/";
 ?>
 
 <!DOCTYPE html>
