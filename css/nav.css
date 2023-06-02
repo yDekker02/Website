@@ -9,7 +9,8 @@
     --clr: #1b1b1b;
     --white: #fff;
 }
-.wrapper {
+
+.wrapper{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -38,8 +39,8 @@
     position: relative;
     list-style: none;
     width: 70px;
-    height: 3rem;
     z-index: 1;
+    height: 100%;
 }
 
 .nav ul li a {
@@ -67,6 +68,7 @@
     transition: 0.5s;
     color: var(--clr);
     transform: translateX(-0px);
+    height: 100%;
 }
 
 .nav ul li:hover a .icon {
