@@ -5,12 +5,13 @@
     border: 1px solid #ffffff00;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 :root {
     --clr: #1b1b1b;
     --white: #fff;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -103,7 +104,7 @@
     border-radius: 50%;
 }
 
-.nav ul .active .indicator{
+.nav ul .active .indicator {
     color: #2900c0;
     opacity: 1;
     background-color: #6bff6d;

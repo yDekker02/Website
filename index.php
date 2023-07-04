@@ -37,7 +37,6 @@ $activePage = "https://ydekker.nl/";
     <p>Ook heb ik een klein beetje lua script geschreven voor exploiten in roblox.</p>
     <p>De Games die ik speel zijn: Valorant, Rainbow Six Siege, Battlebit, Minecraft, GTA V en Roblox</p>
     <br class="padding">
-
 </div>
 
 
