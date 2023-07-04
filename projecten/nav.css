@@ -73,7 +73,7 @@
 }
 
 .nav ul li:hover a .icon {
-    transform: translateY(-28px);
+    transform: translateY(-29px);
 }
 
 .nav ul li a .text {
@@ -108,6 +108,7 @@
     color: #2900c0;
     opacity: 1;
     background-color: #6bff6d;
+    transform: translateY(-2px);
 }
 
 .nav ul li:hover a .indicator {
