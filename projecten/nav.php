@@ -9,7 +9,7 @@ $counter = 0;
 ?>
 
 <link rel="icon" href="https://ydekker.nl/img/favicon.ico">
-<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="nav.css">
 
 <div class="wrapper">
     <div class="nav">

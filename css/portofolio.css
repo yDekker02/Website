@@ -1,0 +1,32 @@
+:root {
+    --clr: #1b1b1b;
+    --white: #fff;
+}
+
+body {
+    background-color: var(--clr);
+    color: var(--white);
+    min-height: 99vh;
+    min-width: 99vw;
+    justify-content: center;
+    align-content: center;
+}
+.text {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    transform: translateY(50px);
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.padding {
+    margin-bottom: 100px;
+}
